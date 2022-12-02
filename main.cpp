@@ -55,10 +55,10 @@ void load(std::string * maleNames, std::string * femaleNames, std::string * surn
         myStream2.close();
 
     } else {
-        printf("Unable to open femaleNames.");
+        printf("Unable to open femaleNames.txt");
     }
 
-    i=0;
+    i = 0;
 
     std::ifstream myStream3("../source/surnames.txt");
     if(myStream3.is_open()){
